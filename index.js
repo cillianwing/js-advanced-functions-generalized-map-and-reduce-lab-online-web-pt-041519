@@ -7,7 +7,7 @@ function map(sourceArray, sourceFunction) {
   return arr;
 }
 
-function reduce(sourceArray, sourceFunction, startingValue=[]) {
+function reduce(sourceArray, sourceFunction, startingValue=0) {
   let total = startingValue;
   for (let i = 0; i < sourceArray.length; i++) {
     total = sourceFunction(sourceArray[i], total)
