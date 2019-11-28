@@ -7,6 +7,6 @@ function map(sourceArray, sourceFunction) {
   return arr;
 }
 
-function reduce(sourceArray, startingValue) {
+function reduce(sourceArray, sourceFunction, startingValue=0) {
   
 }
