@@ -8,11 +8,11 @@ function map(sourceArray, sourceFunction) {
 }
 
 function reduce(sourceArray, sourceFunction, startingValue=0) {
-  let r = (!!startingValue) ? startingValue : src[0]
+  let r = (!!startingValue) ? startingValue : sourceArray[0]
   let i = (!!startingValue) ? 0 : 1
   
-  for (; i < src.length; i++) {
-    r = cb(src[i], r)
+  for (; i < sourceArray.length; i++) {
+    r = sourceFunction(sourceArray[i], r)
   }
   
   return r;
