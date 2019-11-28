@@ -1,5 +1,5 @@
 // Add your functions here
-function map(sourceArray, sourceFunction {
+function map(sourceArray, sourceFunction) {
   let arr = [];
   
 }
