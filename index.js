@@ -6,3 +6,7 @@ function map(sourceArray, sourceFunction) {
   }
   return arr;
 }
+
+function reduce(sourceArray, startingValue) {
+  
+}
